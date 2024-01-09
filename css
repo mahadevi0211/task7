@@ -1,0 +1,418 @@
+body {
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 10px;
+    margin-right: 575px;
+    padding: 8px 12px;
+   
+    cursor: pointer;
+    
+   
+
+    
+}
+
+.but1 {
+    
+    padding: 8px 12px;
+    margin-left: 35px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    
+    
+ 
+}
+.but2 {
+    
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid gray;
+}
+
+
+.one, .two {
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 800px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(215, 211, 211);
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sub1, .sub11 {
+    height: 80px;
+    width: 80px;
+    border-radius: 3px;
+    position: relative;
+    background-color: rgb(215, 206, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: left;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.icon {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.icon1 {
+    font-size: 34px;
+    color: blueviolet;
+}
+
+.sub2, .sub21 {
+    height: 20px;
+    width: 60px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.sub3 {
+    height: 20px;
+    width: 53px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.sub2, .sub21 {
+    background-color: rgb(215, 206, 222);
+    margin-left: 20px;
+}
+
+.sub3 {
+    background-color: rgb(207, 222, 206);
+    margin-left: 15px;
+}
+
+.a, .a1 {
+    color: blueviolet;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.b {
+    color: green;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.d, .d1 {
+    margin-top: 4px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-bottom: 2px;
+    color: blueviolet;
+}
+
+.sub4, .sub41 {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    height: 5px;
+}
+
+.c, .c1, .i {
+    color: rgb(179, 175, 175);
+}
+
+.h, .h1 {
+    display: flex;
+    margin-bottom: 2px;
+    margin-top: 8px;
+}
+
+.left, .left1{
+    color: rgb(179, 175, 175);
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 13px;
+    text-align: right; 
+    line-height: 1px;
+    font-size: 18px;   
+}
+
+.hike,.hike1 {
+    line-height: 1px;
+}
+
+.sub5,.sub51 {
+    background-color: blueviolet;
+    height: 18px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 2px;
+    padding: 3px; 
+}
+
+.sub6,.sub61 {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 17px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 3px;
+    padding: 3px; 
+}
+
+.x,.x1 {
+    color: white;
+    font-size: 13px;
+}
+
+.y ,.y1{
+    color: black;
+    font-size: 13px;
+}
+.last,.last1{
+    display: flex;
+}
+
+
+
+body {
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.whole{
+    display: flex;
+    
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 10px;
+    margin-right: 592px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+    
+}
+
+.but1s {
+    
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid gray;
+    
+
+ 
+}
+.but2s{
+    
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+.ones,.twos {
+    height: 330px;
+    width: 350px;
+    background-color: white;
+    border-radius: 3px;
+    border-color: rgb(215, 211, 211);
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    text-align: left;
+    display: inline-flex; /* Set display to flex */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: left; /* Align children to the top */
+}
+.twos{
+    margin-left: 20px;
+}
+
+.sub1s ,.sub11s{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(210, 202, 216);
+    display: flex; /* Set display to flex */
+    align-items: center;
+    justify-content: center; /* Center the content horizontally and vertically */
+}
+
+.icons,.icon1s {
+    font-size: 30px;
+    color: blueviolet;
+    padding-top: 4px;
+}
+
+.hs ,.h1s{
+    display: flex; /* Set display to flex */
+    flex-direction: row; /* Arrange children horizontally */
+    justify-content: flex-start; /* Align children to the left */
+    margin-top: 12px; /* Add margin between h3 and .h */
+    margin-bottom: 2px;
+}
+
+.sub2s,
+.sub21s {
+    height: 20px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgb(215, 206, 222);
+    margin-right: 10px; /* Add margin between sub2 and sub3 */
+    margin: left 0px;
+}
+
+.sub3s {
+    height: 20px;
+    width: 56px;
+    display: flex; /* Set display to flex */
+    flex-direction: row; /* Arrange children horizontally */
+    justify-content: flex-start; /* Align children to the left */
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgb(207, 222, 206);
+}
+
+.as, .a1s {
+    color: blueviolet;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bs {
+    color: green;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+.ds, .d1s {
+    margin-top: 4px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-bottom: 2px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.sub4s, .sub41s {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    margin-top: 12px; /* Add margin between sub3 and sub4 */
+}
+
+.cs, .c1s, .is {
+    color: rgb(179, 175, 175);
+    font-size: 13px;
+    font-weight: bold;
+}
+h3{
+    height: 6px;
+}
+.hikes,.hike1s {
+    line-height: 1px;
+    color: rgb(179, 175, 175);
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+h4{
+    color: rgb(162, 159, 159);
+    height: 1px;
+    margin-top: 35px;
+}
+.xs,.x1s {
+    color: white;
+    font-size: 13px;
+}
+
+.ys ,.y1s{
+    color: black;
+    font-size: 13px;
+}
+.lasts,.last1s{
+    display: flex;
+    justify-content: center;
+}
+.sub5s,.sub51s {
+    background-color: blueviolet;
+    height: 16px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    
+    border-radius: 2px;
+    padding: 3px; 
+}
+
+.sub6s,.sub61s {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 15px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 3px;
+    padding: 3px; 
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
