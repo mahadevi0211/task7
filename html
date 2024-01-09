@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+   <div class="buttons">
+    <button class="but1" id="button1" onclick="detailed()">Detailed view</button>
+    <button class="but2" id="button2" onclick="card()">Card View</button>
+</div>
+    <div class="one" id="one_1">
+
+        <div class="sub1" id="sub_1">
+            <p class="icon" id="icon1"><i class="fa-solid fa-heart"></i></p>
+        </div>
+        <div class="container" id="containe_r">
+            <div class="h" id="h_">
+                <h3>UX Designer</h3>
+                <div class="sub2" id="sub_2"><p class="a" id="a_">Remote</p></div>
+                <div class="sub3" id="sub_3"><p class="b" id="b_">Sketch</p></div>
+            </div>
+            <div class="sub4" id="sub_4"><p class="c" id="c_">Dropbox  <p class="d" id="d_"> _ </p><p class="i" id="i_"> Warszawa</p></div>
+        </div>
+        <div class="left" id="lef_t">
+            <h4>8.8 - 13.7k PLN</h4>
+            <p class="hike" id="hik_e">2 Days ago</p>
+            <div class="last" id="las_t">
+                <div class="sub5" id="sub_5"><p class="x" id="x_">Apply</p></div>
+                <div class="sub6" id="sub_6"><p class="y" id="y_">Contacts</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="two" id="two_1">
+        <div class="sub11" id="sub1_1">
+            <p class="icon1" id="icon_1"><i class="fa-brands fa-canadian-maple-leaf"></i></p>
+        </div>
+        <div class="container1" id="container_1">
+            <div class="h1" id="h_1">
+                <h3>Product Designer</h3>
+                <div class="sub21" id="sub2_1"><p class="a1" id="a_1">Remote</p></div>
+            </div>
+            <div class="sub41" id="sub4_1"><p class="c1" id="c_1">Twitch  <p class="d1" id="d_1"> _ </p><p class="i" id="i_1"> Wroclaw</p></div>
+        </div>
+        <div class="left1" id="left_1">
+            <h4>8.2 - 13.5k PLN</h4>
+            <p class="hike1" id="hike_1">2 Days ago</p>
+            <div class="last1" id="last_1">
+                <div class="sub51" id="sub5_1"><p class="x1" id="x_1">Apply</p></div>
+                <div class="sub61" id="sub6_1"><p class="y1" id="y_1">Contacts</p></div>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+    function card()
+    {
+        var r=document.getElementById("button1");
+        r.classList.replace("but1","but1s");
+        var r=document.getElementById("button2");
+        r.classList.replace("but2","but2s");
+        var r=document.getElementById("one_1");
+        r.classList.replace("one","ones");
+        var r=document.getElementById("sub_1");
+        r.classList.replace("sub1","sub1s");
+        var r=document.getElementById("icon1");
+        r.classList.replace("icon","icons");
+        var r=document.getElementById("containe_r");
+        r.classList.replace("container","containers");
+        var r=document.getElementById("h_");
+        r.classList.replace("h","hs");
+        var r=document.getElementById("sub_2");
+        r.classList.replace("sub2","sub2s");
+        var r=document.getElementById("sub_3");
+        r.classList.replace("sub3","sub3s");
+        var r=document.getElementById("a_");
+        r.classList.replace("a","as");
+        var r=document.getElementById("b_");
+        r.classList.replace("b","bs");
+        var r=document.getElementById("sub_4");
+        r.classList.replace("sub4","sub4s");
+        var r=document.getElementById("c_");
+        r.classList.replace("c","cs");
+        var r=document.getElementById("d_");
+        r.classList.replace("d","ds");
+        var r=document.getElementById("i_");
+        r.classList.replace("i","is");
+        var r=document.getElementById("lef_t");
+        r.classList.replace("left","lefts");
+        var r=document.getElementById("hik_e");
+        r.classList.replace("hike","hikes");
+        var r=document.getElementById("las_t");
+        r.classList.replace("last","lasts");
+        var r=document.getElementById("sub_5");
+        r.classList.replace("sub5","sub5s");
+        var r=document.getElementById("sub_6");
+        r.classList.replace("sub6","sub6s");
+        var r=document.getElementById("x_");
+        r.classList.replace("x","xs");
+        var r=document.getElementById("y_");
+        r.classList.replace("y","ys");
+
+       
+        var r=document.getElementById("two_1");
+        r.classList.replace("two","twos");
+        var r=document.getElementById("sub1_1");
+        r.classList.replace("sub11","sub11s");
+        var r=document.getElementById("icon_1");
+        r.classList.replace("icon1","icon1s");
+        var r=document.getElementById("container_1");
+        r.classList.replace("container1","container1s");
+        var r=document.getElementById("h_1");
+        r.classList.replace("h1","h1s");
+        var r=document.getElementById("sub2_1");
+        r.classList.replace("sub21","sub21s");
+        var r=document.getElementById("sub3_1");
+        r.classList.replace("sub31","sub31s");
+        var r=document.getElementById("a_1");
+        r.classList.replace("a1","a1s");
+        var r=document.getElementById("b_1");
+        r.classList.replace("b1","b1s");
+        var r=document.getElementById("sub4_1");
+        r.classList.replace("sub41","sub41s");
+        var r=document.getElementById("c_1");
+        r.classList.replace("c1","c1s");
+        var r=document.getElementById("d_1");
+        r.classList.replace("d1","d1s");
+        var r=document.getElementById("i_1");
+        r.classList.replace("i1","i1s");
+        var r=document.getElementById("left_1");
+        r.classList.replace("left1","left1s");
+        var r=document.getElementById("hike_1");
+        r.classList.replace("hike1","hike1s");
+        var r=document.getElementById("last_1");
+        r.classList.replace("last1","last1s");
+        var r=document.getElementById("sub5_1");
+        r.classList.replace("sub51","sub51s");
+        var r=document.getElementById("sub6_1");
+        r.classList.replace("sub61","sub61s");
+        var r=document.getElementById("x_1");
+        r.classList.replace("x1","x1s");
+        var r=document.getElementById("y_1");
+        r.classList.replace("y1","y1s");
+       
+        
+    }
+    function detailed()
+    {
+        var r=document.getElementById("button1");
+        r.classList.replace("but1s","but1");
+        var r=document.getElementById("button2");
+        r.classList.replace("but2s","but2");
+        var r=document.getElementById("one_1");
+        r.classList.replace("ones","one");
+        var r=document.getElementById("sub_1");
+        r.classList.replace("sub1s","sub1");
+        var r=document.getElementById("icon1");
+        r.classList.replace("icons","icon");
+        var r=document.getElementById("containe_r");
+        r.classList.replace("containers","container");
+        var r=document.getElementById("h_");
+        r.classList.replace("hs","h");
+        var r=document.getElementById("sub_2");
+        r.classList.replace("sub2s","sub2");
+        var r=document.getElementById("sub_3");
+        r.classList.replace("sub3s","sub3");
+        var r=document.getElementById("a_");
+        r.classList.replace("as","a");
+        var r=document.getElementById("b_");
+        r.classList.replace("bs","b");
+        var r=document.getElementById("sub_4");
+        r.classList.replace("sub4s","sub4");
+        var r=document.getElementById("c_");
+        r.classList.replace("cs","c");
+        var r=document.getElementById("d_");
+        r.classList.replace("ds","d");
+        var r=document.getElementById("i_");
+        r.classList.replace("is","i");
+        var r=document.getElementById("lef_t");
+        r.classList.replace("lefts","left");
+        var r=document.getElementById("hik_e");
+        r.classList.replace("hikes","hike");
+        var r=document.getElementById("las_t");
+        r.classList.replace("lasts","last");
+        var r=document.getElementById("sub_5");
+        r.classList.replace("sub5s","sub5");
+        var r=document.getElementById("sub_6");
+        r.classList.replace("sub6s","sub6");
+        var r=document.getElementById("x_");
+        r.classList.replace("xs","x");
+        var r=document.getElementById("y_");
+        r.classList.replace("ys","y");
+
+       
+        var r=document.getElementById("two_1");
+        r.classList.replace("twos","two");
+        var r=document.getElementById("sub1_1");
+        r.classList.replace("sub11s","sub11");
+        var r=document.getElementById("icon_1");
+        r.classList.replace("icon1s","icon1");
+        var r=document.getElementById("container_1");
+        r.classList.replace("container1s","container1");
+        var r=document.getElementById("h_1");
+        r.classList.replace("h1s","h1");
+        var r=document.getElementById("sub2_1");
+        r.classList.replace("sub21s","sub21");
+        var r=document.getElementById("sub3_1");
+        r.classList.replace("sub31s","sub31");
+        var r=document.getElementById("a_1");
+        r.classList.replace("a1s","a1");
+        var r=document.getElementById("b_1");
+        r.classList.replace("b1s","b1");
+        var r=document.getElementById("sub4_1");
+        r.classList.replace("sub41s","sub41");
+        var r=document.getElementById("c_1");
+        r.classList.replace("c1s","c1");
+        var r=document.getElementById("d_1");
+        r.classList.replace("d1s","d1");
+        var r=document.getElementById("i_1");
+        r.classList.replace("i1s","i1");
+        var r=document.getElementById("left_1");
+        r.classList.replace("left1s","left1");
+        var r=document.getElementById("hike_1");
+        r.classList.replace("hike1s","hike1");
+        var r=document.getElementById("last_1");
+        r.classList.replace("last","last1");
+        var r=document.getElementById("sub5_1");
+        r.classList.replace("sub51s","sub51");
+        var r=document.getElementById("sub6_1");
+        r.classList.replace("sub61s","sub61");
+        var r=document.getElementById("x_1");
+        r.classList.replace("x1s","x1");
+        var r=document.getElementById("y_1");
+        r.classList.replace("y1s","y1"); 
+        
+    }
+</script>
+
+
+
+</body>
+</html>
